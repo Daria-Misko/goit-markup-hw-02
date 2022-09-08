@@ -14,9 +14,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 1.17;
+	font-weight: 400;
+	letter-spacing: 0.03em;
 }
 a {
 	text-decoration:none;
+	letter-spacing: 0.03em;
 }
 
 :root {
@@ -38,7 +41,6 @@ ul {
 	font-size: 26px;
 	font-weight: 700;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 }
 .studio-general {
 	color: #000000;
@@ -110,7 +112,6 @@ ul {
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.16;
-	letter-spacing: 0.03em;
 	text-align: center;
 }
 .title-hidden {
@@ -118,15 +119,21 @@ ul {
 }
 .benefits-list {}
 
-.benefits-list .subtitle {}
+.benefits-list .subtitle {
+	font-weight: 700;
+	line-height: 1.14;
+}
 
 .benefits-list p {
 	color: var(--main-color-text);
+	line-height: 1.17;
 }
 
 .subtitle {}
 
 .works-section {}
+
+/* team section */
 
 .about-team {
 
@@ -134,8 +141,16 @@ ul {
 
 .about-team-list {}
 
+.teammate-name {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.18;
+}
+
 .about-team-list p {
 	color: var(--main-color-text);
+	font-size: 16px;
+	line-height: 1.18;
 }
 
 .team-img {}
@@ -144,6 +159,14 @@ ul {
 
 /* footer */
 
+footer {
+	background-color: #2F303A;
+}
+.contact-info {
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.71;
+}
 .location {
 	color: var(--color-white);
 }

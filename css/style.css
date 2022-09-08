@@ -1,0 +1,159 @@
+/* color h2 #212121 */
+/* color text #757575 */
+/* blue color #2196F3 */
+/* white color #FFFFFF */
+/* color studio #000000 #FFFFFF*/
+
+
+/* bg color #F5F5F5 */
+/* bg color hero #2F303A */
+
+body {
+	color: var(--main-color-title);
+	background-color: #F5F5F5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.17;
+}
+a {
+	text-decoration:none;
+}
+
+:root {
+	--main-color-title:#212121;
+	--main-color-text:#757575;
+	--color-blue:#2196F3;
+	--color-white:#FFFFFF;
+	--bg-color-dark:#2F303A;
+}
+
+
+/* header */
+ul {
+	list-style: none;
+}
+.logo {
+	color: var(--color-blue);
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.studio-general {
+	color: #000000;
+}
+.main-nav {
+	font-weight: 500;
+	letter-spacing: 0.02em;
+}
+.nav-link {
+	color: var(--main-color-title);
+}
+.nav-link {}
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--color-blue);
+}
+
+.contact-info {
+	color: var(--main-color-text);
+}
+
+.contact-mail {
+	color: var(--main-color-text);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+	color: var(--color-blue);
+}
+
+.contact-phone {
+	color: var(--main-color-text);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+	color: var(--color-blue);
+}
+
+/* main */
+
+/* hero */
+
+.hero {
+	background-color: #2F303A;
+}
+
+.hero-title {
+	color: var(--color-white);
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.hero-button {
+	color: var(--color-white);
+	background-color: var(--color-blue);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	text-align: center;
+}
+
+/* section 1 */
+
+.title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+.title-hidden {
+	visibility: hidden;
+}
+.benefits-list {}
+
+.benefits-list .subtitle {}
+
+.benefits-list p {
+	color: var(--main-color-text);
+}
+
+.subtitle {}
+
+.works-section {}
+
+.about-team {
+
+}
+
+.about-team-list {}
+
+.about-team-list p {
+	color: var(--main-color-text);
+}
+
+.team-img {}
+
+
+
+/* footer */
+
+.location {
+	color: var(--color-white);
+}
+
+.studio-footer {
+	color: var(--color-white);
+}
+
+.address {}
+
+.contact-footer {
+	color: rgba(255, 255, 255, 0.6);
+}

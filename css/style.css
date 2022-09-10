@@ -8,13 +8,20 @@
 /* bg color #F5F5F5 */
 /* bg color hero #2F303A */
 
+:root {
+	--main-color-title: #212121;
+	--main-color-text: #757575;
+	--color-blue: #2196F3;
+	--color-white: #FFFFFF;
+	--bg-color-dark: #2F303A;
+}
+
 body {
 	color: var(--main-color-title);
 	background-color: #F5F5F5;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 1.17;
-	font-weight: 400;
 	letter-spacing: 0.03em;
 }
 a {
@@ -22,16 +29,11 @@ a {
 	letter-spacing: 0.03em;
 }
 
-:root {
-	--main-color-title:#212121;
-	--main-color-text:#757575;
-	--color-blue:#2196F3;
-	--color-white:#FFFFFF;
-	--bg-color-dark:#2F303A;
-}
-
 
 /* header */
+header {
+	background-color: #FFFFFF;
+}
 ul {
 	list-style: none;
 }
@@ -52,7 +54,7 @@ ul {
 .nav-link {
 	color: var(--main-color-title);
 }
-.nav-link {}
+
 .nav-link:hover,
 .nav-link:focus {
 	color: var(--color-blue);
@@ -163,7 +165,6 @@ footer {
 	background-color: #2F303A;
 }
 .contact-info {
-	font-weight: 400;
 	font-style: normal;
 	line-height: 1.71;
 }

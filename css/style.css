@@ -13,12 +13,16 @@
 	--main-color-text: #757575;
 	--color-blue: #2196F3;
 	--color-white: #FFFFFF;
+	--hover-button: #188CE8;
 	--bg-color-dark: #2F303A;
+	--bg-color-grey: #F5F5F5;
+	--color-black: #000000;
+	--bg-color-cards: #F5F4FA;
 }
 
 body {
 	color: var(--main-color-title);
-	background-color: #F5F5F5;
+	background-color: var(--color-white);
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 1.17;
@@ -28,12 +32,16 @@ a {
 	text-decoration:none;
 	letter-spacing: 0.03em;
 }
+button {
+	cursor: pointer;
+}
 
 
 /* header */
-header {
-	background-color: #FFFFFF;
+.nav-link-active {
+	color: var(--color-blue);
 }
+
 ul {
 	list-style: none;
 }
@@ -45,7 +53,7 @@ ul {
 	line-height: 1.19;
 }
 .studio-general {
-	color: #000000;
+	color: var(--color-black);
 }
 .main-nav {
 	font-weight: 500;
@@ -85,7 +93,7 @@ ul {
 /* hero */
 
 .hero {
-	background-color: #2F303A;
+	background-color: var(--bg-color-dark);
 }
 
 .hero-title {
@@ -106,6 +114,10 @@ ul {
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 	text-align: center;
+}
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--hover-button);
 }
 
 /* section 1 */
@@ -138,10 +150,12 @@ ul {
 /* team section */
 
 .about-team {
-
+	background-color: var(--bg-color-cards);
 }
 
-.about-team-list {}
+.about-team-list li {
+	background-color: var(--color-white);
+}
 
 .teammate-name {
 	font-size: 16px;
@@ -154,10 +168,39 @@ ul {
 	font-size: 16px;
 	line-height: 1.18;
 }
-
 .team-img {}
 
+/* portfolio */
 
+.button-filter {
+	color: var(--main-color-title);
+	background-color: var(--bg-color-cards);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.62;
+	text-align: center;
+}
+.button-filter:hover,
+.button-filter:focus {
+	background-color: var(--color-blue);
+}
+.examples li {
+	border: 1px #EEEEEE solid;
+}
+.examples h2 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.examples p {
+	color: var(--main-color-text);
+	font-size: 16px;
+	line-height: 1.875;
+}
+.examples a {
+	color: inherit;
+}
 
 /* footer */
 
@@ -167,6 +210,10 @@ footer {
 .contact-info {
 	font-style: normal;
 	line-height: 1.71;
+}
+.contact-info a:hover,
+.contact-info a:focus {
+	color: var(--color-blue);
 }
 .location {
 	color: var(--color-white);

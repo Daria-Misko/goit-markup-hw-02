@@ -8,6 +8,19 @@
 /* bg color #F5F5F5 */
 /* bg color hero #2F303A */
 
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
 :root {
 	--main-color-title: #212121;
 	--main-color-text: #757575;
@@ -128,9 +141,6 @@ ul {
 	font-weight: 700;
 	line-height: 1.16;
 	text-align: center;
-}
-.title-hidden {
-	visibility: hidden;
 }
 .benefits-list {}
 
